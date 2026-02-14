@@ -1,0 +1,12 @@
+services:
+  photon:
+    image: rtuszik/photon-docker:2.0.0-beta
+    ports:
+    - "2322:2322"
+    volumes:
+      - ./photon_data:/photon/data  # Point this to where your Malaysia folder is
+    environment:
+      # Important for manual import
+      # Look at README.md on how to setup the manual import for malaysia
+      - INITIAL_DOWNLOAD=false   
+      - PHOTON_PARAMS=-listen-ip 0.0.0.0 

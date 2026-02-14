@@ -1,0 +1,6 @@
+# Ignore the photon database folder (added trailing slash)
+photon_data/
+
+# Ignore all large data dumps (using wildcard for extension)
+*.zst
+*.jsonl
