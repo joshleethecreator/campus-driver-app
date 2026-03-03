@@ -12,6 +12,32 @@ Api details are in:
 - `docs/api.md`
 
 
+---
+
+## Table of Contents
+
+- [1. Overview](#1-overview)
+- [2. Data Model & Schema](#2-data-model--schema)
+  - [2.1 High-level ER Diagram](#21-high-level-er-diagram)
+  - [2.2 Core Tables](#22-core-tables)
+- [3. Security & Authentication](#3-security--authentication)
+  - [3.1 Authentication Flow](#31-authentication-flow)
+  - [3.2 Driver Verification](#32-driver-verification)
+- [4. Real-time Communication Socketio](#4-real-time-communication-socketio)
+  - [4.1 Connection](#41-connection)
+  - [4.2 Rooms & Access Control](#42-rooms--access-control)
+  - [4.3 Chat Flow](#43-chat-flow)
+  - [4.4 Notifications Integration](#44-notifications-integration)
+  - [4.5 Retention Behavior](#45-retention-behavior)
+- [5. Background Jobs & Automation](#5-background-jobs--automation)
+  - [5.1 Scheduled Jobs](#51-scheduled-jobs)
+- [6. Error Handling & Business Rules](#6-error-handling--business-rules)
+  - [6.1 Domain-specific HTTP Codes](#61-domain-specific-http-codes)
+  - [6.2 General Errors](#62-general-errors)
+- [7. Environment & Configuration](#7-environment--configuration)
+  - [7.1 Domain Configuration](#71-domain-configuration)
+  - [7.2 Other Configuration](#72-other-configuration)
+- [8. Responsibilities Summary](#8-responsibilities-summary)
 
 ---
 

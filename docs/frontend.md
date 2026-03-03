@@ -11,6 +11,29 @@ Backend and API details are in:
 
 ---
 
+## Table of Contents
+
+- [1. Overview](#1-overview)
+- [2. Architecture & State Management](#2-architecture--state-management)
+  - [2.1 State Management](#21-state-management)
+  - [2.2 Suggested Project Structure](#22-suggested-project-structure)
+- [3. Screens & Navigation (Frontend View)](#3-screens--navigation-frontend-view)
+  - [3.1 Authentication](#31-authentication)
+  - [3.2 Passenger Flows](#32-passenger-flows)
+  - [3.3 Driver Flows](#33-driver-flows)
+  - [3.4 Navigation & Deep-links](#34-navigation--deep-links)
+- [4. UI Requirements & UX Constraints (Frontend Responsibilities)](#4-ui-requirements--ux-constraints-frontend-responsibilities)
+  - [4.1 Chat View Retention Notice](#41-chat-view-retention-notice)
+  - [4.2 Offline / Slow Network Behavior](#42-offline--slow-network-behavior)
+  - [4.3 Time-based Automation Feedback](#43-time-based-automation-feedback)
+- [5. Integration with Backend & API](#5-integration-with-backend--api)
+  - [5.1 REST API Usage](#51-rest-api-usage)
+  - [5.2 WebSockets / Socketio](#52-websockets--socketio)
+  - [5.3 Push Notifications FCM](#53-push-notifications-fcm)
+- [6. Testing Strategy (Frontend)](#6-testing-strategy-frontend)
+
+---
+
 ## 1. Overview
 
 - **Platform:** iOS and Android.

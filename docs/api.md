@@ -13,6 +13,26 @@ Backend architecture details are in:
 
 ---
 
+## Table of Contents
+
+- [1. Conventions](#1-conventions)
+- [2. Authentication & Profile APIs](#2-authentication--profile-apis)
+  - [2.1 Register / Link Firebase User](#21-register--link-firebase-user)
+  - [2.2 Store FCM Token](#22-store-fcm-token)
+- [3. Ride & Driver APIs](#3-ride--driver-apis)
+  - [3.1 Create Ride Immediate or Scheduled](#31-create-ride-immediate-or-scheduled)
+  - [3.2 Get Available Rides Driver](#32-get-available-rides-driver)
+  - [3.3 Accept Ride Driver](#33-accept-ride-driver)
+  - [3.3 Location Search](#33-location-search)
+- [4. Realtime / Socket.io API](#4-realtime--socketio-api)
+  - [4.1 Connection](#41-connection)
+  - [4.2 Rooms](#42-rooms)
+  - [4.3 Events](#43-events)
+- [5. Error Semantics](#5-error-semantics)
+- [6. Environment Variables APIfacing](#6-environment-variables-apifacing)
+
+---
+
 ## 1. Conventions
 
 - Base URL (configured via environment):
